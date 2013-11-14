@@ -1,0 +1,4 @@
+{
+  "src/name.coffee": "src/{%= short_name %}.coffee",
+  "test/specs/name.test.coffee": "test/specs/{%= short_name %}.test.coffee"
+}
