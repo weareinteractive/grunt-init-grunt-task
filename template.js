@@ -86,6 +86,9 @@ exports.template = function(grunt, init, done) {
     // Generate package.json file.
     init.writePackageJSON('package.json', props);
 
+    // empty directories will not be copied, so we need to create them manual
+    grunt.file.mkdir(join(init.destpath(), 'tasks'));
+
     // All done!
     done();
   });
