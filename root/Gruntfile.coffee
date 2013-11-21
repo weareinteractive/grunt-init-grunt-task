@@ -14,18 +14,11 @@ module.exports = (grunt) ->
     pkg: grunt.file.readJSON "package.json"
 
     coffeelint:
-      files: ["Gruntfile.coffee", "src/**/*.coffee", "test/**/*.coffee"]
+      files: ["Gruntfile.coffee", "tasks/**/*.coffee", "test/**/*.coffee"]
       options:
         max_line_length:
           value: 200
           level: "error"
-
-    coffee:
-      tasks:
-        options:
-          bare: true
-        files:
-          "tasks/{%= short_name %}.js": "src/{%= short_name %}.coffee"
 
     # Before generating any new files, remove any previously-created files.
     clean:
@@ -69,12 +62,11 @@ module.exports = (grunt) ->
   # These plugins provide necessary tasks.
   grunt.loadNpmTasks 'grunt-coffeelint'
   grunt.loadNpmTasks 'grunt-contrib-clean'
-  grunt.loadNpmTasks "grunt-contrib-coffee"
   grunt.loadNpmTasks "grunt-mocha-cov"
   grunt.loadNpmTasks "grunt-bumper"
 
   # By default, lint and run all tests.
-  grunt.registerTask 'default', ['coffeelint', 'coffee']
+  grunt.registerTask 'default', ['coffeelint']
 
   # Whenever the "test" task is run, first clean the "tmp" dir, then run this plugin's task(s), then test the result.
   grunt.registerTask 'test', ['default', 'clean', '{%= short_name %}', 'mochacov']

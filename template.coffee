@@ -71,7 +71,6 @@ exports.template = (grunt, init, done) ->
       "chai": "~1.8.0"
       "grunt-coffeelint": "0.0.7"
       "grunt-contrib-clean": "~0.5.0"
-      "grunt-contrib-coffee": "~0.7.0"
       "grunt-mocha-cov": "0.0.7"
       "coffee-script": "~1.6.3"
       "grunt-bumper": "~1.0.0"
@@ -90,12 +89,6 @@ exports.template = (grunt, init, done) ->
 
     # Generate package.json file.
     init.writePackageJSON("package.json", props)
-
-    # module dependencies
-    join = require("path").join
-
-    # empty directories will not be copied, so we need to create them manual
-    grunt.file.mkdir join(init.destpath(), "tasks")
 
     # All done!
     done()
