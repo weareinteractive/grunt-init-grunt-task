@@ -1,9 +1,9 @@
 ###
-{%= name %}
-{%= homepage %}
+grunt-example
+https://github.com/weareinteractive/grunt-init-gruntplugin
 
-Copyright (c) {%= grunt.template.today('yyyy') %} {%= author_name %}
-Licensed under the {%= licenses.join(', ') %} license{%= licenses.length === 1 ? '' : 's' %}.
+Copyright (c) 2013 franklin
+Licensed under the MIT license.
 ###
 
 module.exports = (grunt) ->
@@ -25,14 +25,14 @@ module.exports = (grunt) ->
         options:
           bare: true
         files:
-          "tasks/{%= short_name %}.js": "src/{%= short_name %}.coffee"
+          "tasks/example.js": "src/example.coffee"
 
     # Before generating any new files, remove any previously-created files.
     clean:
       tests: ['test/tmp']
 
     # Configuration to be run (and then tested).
-    {%= short_name %}:
+    example:
       default_options:
         files:
           'test/tmp/default_options': ['test/fixtures/testing', 'test/fixtures/123']
@@ -77,4 +77,4 @@ module.exports = (grunt) ->
   grunt.registerTask 'default', ['coffeelint', 'coffee']
 
   # Whenever the "test" task is run, first clean the "tmp" dir, then run this plugin's task(s), then test the result.
-  grunt.registerTask 'test', ['default', 'clean', '{%= short_name %}', 'mochacov']
+  grunt.registerTask 'test', ['default', 'clean', 'example', 'mochacov']

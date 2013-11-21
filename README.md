@@ -1,6 +1,9 @@
-# grunt-init-gruntplugin
+# grunt-init-grunt-task
 
-> Create a gruntplugin module with [grunt-init][], including [CoffeeScript](http://coffeescript.org/), [Mocha tests](http://visionmedia.github.io/mocha/), [Chai](http://chaijs.com) and [Bump](https://github.com/vojtajina/grunt-bump).
+> Create a Grunt Task module with [grunt-init][], including:
+> * [CoffeeScript](http://coffeescript.org/)
+> * [Mocha Test](http://visionmedia.github.io/mocha/)
+>
 > This is based on the default [gruntplugin](https://github.com/gruntjs/grunt-init-gruntplugin) from [gruntjs](http://gruntjs.com).
 
 [grunt-init]: http://gruntjs.com/project-scaffolding
@@ -14,7 +17,7 @@ directory. It's recommended that you use git to clone this template into that
 directory, as follows:
 
 ```
-$ git clone https://github.com/weareinteractive/grunt-init-gruntplugin.git ~/.grunt-init/grunt-plugin
+$ git clone https://github.com/weareinteractive/grunt-init-grunt-task.git ~/.grunt-init/grunt-task
 ```
 
 ## Usage
@@ -23,7 +26,7 @@ At the command-line, cd into an empty directory, run this command and follow
 the prompts.
 
 ```
-$ grunt-init grunt-plugin
+$ grunt-init grunt-task
 ```
 
 *Note that this template will generate files in the current directory, so be

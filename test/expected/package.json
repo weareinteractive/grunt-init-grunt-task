@@ -1,0 +1,46 @@
+{
+  "name": "grunt-example",
+  "description": "The best Grunt plugin ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/weareinteractive/grunt-init-gruntplugin",
+  "author": {
+    "name": "franklin",
+    "email": "franklin@weareinteractive.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/weareinteractive/grunt-init-gruntplugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/weareinteractive/grunt-init-gruntplugin/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/weareinteractive/grunt-init-gruntplugin/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.coffee",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "chai": "~1.8.0",
+    "grunt-coffeelint": "0.0.7",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-mocha-cov": "0.0.7",
+    "coffee-script": "~1.6.3",
+    "grunt-bumper": "~1.0.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}

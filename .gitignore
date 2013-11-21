@@ -1,4 +1,7 @@
 .*
 *~
-/node_modules
+/node_modules/
+/test/grunt-example/
+/npm-debug.log
+!.travis.yml
 !.git*
