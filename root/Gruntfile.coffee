@@ -55,7 +55,6 @@ module.exports = (grunt) ->
         files: ["package.json"]
         updateConfigs: ["pkg"]
 
-
   # Actually load this plugin's task(s).
   grunt.loadTasks 'tasks'
 
