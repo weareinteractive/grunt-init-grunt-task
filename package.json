@@ -1,0 +1,41 @@
+{
+  "name": "grunt-init-grunt-task",
+  "description": "Create a Grunt Task module with CoffeeScript, Mocha, Chai & Bumber.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/weareinteractive/grunt-init-grunt-task",
+  "author": {
+    "name": "franklin",
+    "email": "franklin@weareinteractive.com",
+    "url": "http://wwww.weareinteractive.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weareinteractive/grunt-init-grunt-task.git"
+  },
+  "bugs": {
+    "url": "https://github.com/weareinteractive/grunt-init-grunt-task/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/weareinteractive/grunt-init-grunt-task/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "template.coffee",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "grunt-init": "~0.2.1",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "init",
+    "grunt",
+    "grunt init",
+    "grunt task",
+    "grunt templates",
+    "grunt plugin",
+    "gruntplugin"
+  ]
+}
