@@ -36,6 +36,10 @@
     "grunt task",
     "grunt templates",
     "grunt plugin",
-    "gruntplugin"
+    "gruntplugin",
+    "coffee",
+    "bumper",
+    "mocha",
+    "chai"
   ]
 }

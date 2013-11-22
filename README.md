@@ -1,5 +1,8 @@
 # grunt-init-grunt-task
 
+[![Dependency Status](https://gemnasium.com/weareinteractive/grunt-init-grunt-task.png)](https://gemnasium.com/weareinteractive/grunt-init-grunt-task)
+[![NPM version](https://badge.fury.io/js/grunt-init-grunt-task.png)](http://badge.fury.io/js/grunt-init-grunt-task)
+
 > Create a Grunt Task module with [grunt-init][], including:
 > * [CoffeeScript](http://coffeescript.org/)
 > * [Mocha Test](http://visionmedia.github.io/mocha/)
