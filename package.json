@@ -25,21 +25,16 @@
   "engines": {
     "node": ">= 0.8.0"
   },
-  "dependencies": {
-    "grunt-init": "~0.2.1",
-    "grunt": "~0.4.1"
+  "peerDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-init": "~0.2.1"
   },
   "keywords": [
-    "init",
-    "grunt",
-    "grunt init",
-    "grunt task",
-    "grunt templates",
-    "grunt plugin",
-    "gruntplugin",
+    "grunt-init",
     "coffee",
     "bumper",
     "mocha",
+    "taks",
     "chai"
   ]
 }
