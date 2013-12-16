@@ -1,7 +1,7 @@
 {
   "name": "grunt-init-grunt-task",
   "description": "Create a Grunt Task module with CoffeeScript, Mocha, Chai & Bumber.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/weareinteractive/grunt-init-grunt-task",
   "author": {
     "name": "franklin",
@@ -30,6 +30,7 @@
     "grunt-init": "~0.2.1"
   },
   "keywords": [
+    "gruntplugin",
     "grunt-init",
     "coffee",
     "bumper",
