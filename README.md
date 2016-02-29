@@ -11,6 +11,8 @@
 
 [grunt-init]: http://gruntjs.com/project-scaffolding
 
+**DEPRICATION NOTICE: this project hasn't been maintained and updated for a while now. Please use as is and send PRs if you need changes.**
+
 ## Installation
 
 If you haven't already done so, install [grunt-init][].
@@ -37,7 +39,14 @@ sure to change to a new directory first if you don't want to overwrite existing
 files.*
 
 ## Contributing
+
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
 
 ## License
 Copyright (c) We Are Interactive under the MIT license.
