@@ -5,7 +5,7 @@
 
 > Create a Grunt Task module with [grunt-init][], including:
 > * [CoffeeScript](http://coffeescript.org/)
-> * [Mocha Test](http://visionmedia.github.io/mocha/)
+> * [Mocha Test](http://mochajs.org/)
 >
 > This is based on the default [gruntplugin](https://github.com/gruntjs/grunt-init-gruntplugin) from [gruntjs](http://gruntjs.com).
 
